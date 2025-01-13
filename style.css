@@ -1,0 +1,100 @@
+body {
+    background-image: url("https://www.teahub.io/photos/full/96-967350_ios-wallpapers-pc.jpg");
+
+    background-size: 100%;
+}
+.container {
+    width: 100%;
+    text-align: center;
+    margin-top: 2.6rem;
+
+}
+
+.container input {
+    width: 40%;
+    padding: .6rem;
+    height: 45px;
+}
+
+
+.container input:focus {
+   outline: 0px solid;
+   outline-color: white;
+}
+
+div {
+    color: white;
+}
+
+main{
+    width: 100%;
+    text-align: center;
+    padding-top: 3rem;
+}
+.location {
+  
+    font-size: 23px;
+    width: 100%;
+    text-align: center;
+    margin-left: -.6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.location div{
+    margin-left: 1rem;
+}
+
+.temp {
+    font-size: 90px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.weather , .hi-low {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.footer {
+    color: white;
+    width: 100%;
+    width: 100%;
+    text-align: center;
+    bottom: 0%;
+   position: fixed;
+   padding-bottom: 1.6rem;
+
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer a {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+@media only screen and (max-width: 774px) {
+    .container input {
+        width: 90%;
+        padding: .6rem;
+        height: 45px;
+    }
+
+    .temp {
+        font-size: 70px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .weather , .hi-low {
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .location {margin-top: 3rem;
+  margin-bottom: 1rem;
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+        margin-left: -.6rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  }
